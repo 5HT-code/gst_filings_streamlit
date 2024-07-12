@@ -93,7 +93,7 @@ def process_excel(file):
         st.error(f"Error occurred: {e}")
 
 # Streamlit UI code
-st.title("Excel to CSV Converter")
+st.title("GST filings - Flipkart Automation")
 uploaded_file = st.file_uploader("Choose an Excel file", type="xlsx")
 
 if uploaded_file is not None:
